@@ -112,4 +112,4 @@ h(x) = d(x, 10, f)
 r = fixedpoint(-29.9, h, error)
 println(r)
 r = secant(-29.9, -30.1, f, error)
-println(r)
+println(r);
